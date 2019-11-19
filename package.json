@@ -1,0 +1,59 @@
+{
+  "_from": "node-red-contrib-http-event-collector@0.1.7",
+  "_id": "node-red-contrib-http-event-collector@0.1.7",
+  "_inBundle": false,
+  "_integrity": "sha1-jDyt8JBIqKCtxeF7PgN4BAYz0NU=",
+  "_location": "/node-red-contrib-http-event-collector",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "node-red-contrib-http-event-collector@0.1.7",
+    "name": "node-red-contrib-http-event-collector",
+    "escapedName": "node-red-contrib-http-event-collector",
+    "rawSpec": "0.1.7",
+    "saveSpec": null,
+    "fetchSpec": "0.1.7"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-red-contrib-http-event-collector/-/node-red-contrib-http-event-collector-0.1.7.tgz",
+  "_shasum": "8c3cadf09048a8a0adc5e17b3e0378040633d0d5",
+  "_spec": "node-red-contrib-http-event-collector@0.1.7",
+  "_where": "/home/nodered/.node-red",
+  "bugs": {
+    "url": "https://github.com/gdziuba/http-event-collector/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "splunk-logging": "git+https://github.com/splunk/splunk-javascript-logging.git"
+  },
+  "deprecated": false,
+  "description": "The purpose of this project is to allow node-red to publish a node-red payload to Splunk's HTTP Event Collector.",
+  "homepage": "https://github.com/gdziuba/http-event-collector#readme",
+  "keywords": [
+    "splunk",
+    "HTTP Event Collector",
+    "node-red",
+    "HEC",
+    "Machine",
+    "Machine Data",
+    "Analytics",
+    "Machine Learning"
+  ],
+  "license": "Apache-2.0",
+  "name": "node-red-contrib-http-event-collector",
+  "node-red": {
+    "nodes": {
+      "splunk-http-event-collector": "http-event-collector/http-event-collector.js",
+      "splunk-http-event-collector-metric": "http-event-collector/http-event-collector-metric.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdziuba/http-event-collector.git"
+  },
+  "version": "0.1.7"
+}
