@@ -64,10 +64,10 @@ module.exports = function(RED) {
 
             
 
-            console.log("Sending payload", payload);
+	    //console.log("Sending payload", payload);
             Logger.send(payload, function(err, resp, body) {
                 // If successful, body will be { text: 'Success', code: 0 }
-                console.log("Response from Splunk", body);
+                console.log("action=sent_splunk_payload");
             });
 
 
